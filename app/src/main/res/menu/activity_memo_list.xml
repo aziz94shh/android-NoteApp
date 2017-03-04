@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Created by Aziz-->
+    <!--android:icon="@android:drawable/ic_menu_add"-->
+    <item
+        android:id="@+id/menuAddMemo"
+        android:orderInCategory="1"
+        android:title="New Memo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menuEdit"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="Edit"/>
+    <item
+        android:id="@+id/menuDone"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="Done"
+        android:visible="false"/>
+</menu>
